@@ -109,7 +109,7 @@ input, select, textarea {
 		-webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
+		/* border-bottom: dotted 1px; */
 		color: #e44c65;
 		text-decoration: none;
 	}
@@ -2487,15 +2487,15 @@ input, select, textarea {
 			}
 
 		.icon.major {
-			background: #272833;
+			/* background: #272833; */
 			border-radius: 100%;
 			cursor: default;
 			display: inline-block;
-			height: 6em;
+			height: 4em;
 			line-height: 5.65em;
-			margin: 0 0 2em 0;
+			/* margin: 0 0 2em 0; */
 			text-align: center;
-			width: 6em;
+			width: 4em;
 		}
 
 			.icon.major:before {
@@ -2520,7 +2520,7 @@ input, select, textarea {
 				}
 
 				.icon.major.alt:before {
-					color: #272833 !important;
+					color: #2b2d32 !important;
 					text-shadow: 1px 0 0 #ffffff, -1px 0 0 #ffffff, 0 1px 0 #ffffff, 0 -1px 0 #ffffff;
 				}
 
@@ -3505,10 +3505,15 @@ input, select, textarea {
 		background-attachment: scroll;
 	}
 
+#four{
+	background: #2b2d32;
+}
+
+
 /* Footer */
 
 	#footer {
-		background: #272833;
+		background: #2b2d32;
 		padding: 6em 0;
 		text-align: center;
 	}

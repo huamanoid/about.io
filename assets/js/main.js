@@ -329,6 +329,16 @@ box3.onclick = () => {
     box3.classList.remove('click');
   }, 300);
 };
+
+const box4 = document.getElementById('neobutton4');
+
+box4.onclick = () => {
+  box4.classList.add('click');
+  setTimeout(() => {
+    box4.classList.remove('click');
+  }, 300);
+};
+
 retype.start();
 
 
