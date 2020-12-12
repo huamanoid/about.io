@@ -2632,9 +2632,9 @@ input, select, textarea {
 
 		ul.icons li {
 			display: inline-block;
-			height: 2.5em;
-			line-height: 2.5em;
-			padding: 0 0.5em;
+			height: 1em;
+			line-height: 1em;
+			padding: 0 0.2em;
 		}
 
 			ul.icons li .icon {
@@ -2642,7 +2642,7 @@ input, select, textarea {
 			}
 
 				ul.icons li .icon:before {
-					font-size: 2em;
+					font-size: 1.5em;
 				}
 
 /* Actions */
@@ -3903,3 +3903,45 @@ input, select, textarea {
 					}
 
 	}
+
+	.boxx {
+		border-radius: 25px;
+		background: linear-gradient(145deg, #2e3036, #27292d);
+		box-shadow: 5px 5px 7.5px #25262b, -10px -10px 15px #31343a, inset 0px 0px 0px #25262b, inset 0px 0px 0px #313433;
+		-webkit-transition: box-shadow 0.2s;
+		transition: box-shadow 0.2s;
+		cursor: pointer;
+		border: none;
+		padding: 10px 20px;
+		margin: 10px 20px;
+		color: rgba(255,255,255,0.3);
+		font-size: 1.5rem;
+		font-family: sans-serif;
+		outline: none;
+	  }
+	  .boxx.click {
+		-webkit-animation: buttonClicked 0.3s;
+				animation: buttonClicked 0.3s;
+	  }
+	  @-webkit-keyframes buttonClicked {
+		0% {
+		  box-shadow: 10px 10px 15px #25262b, -10px -10px 15px #31343a, inset 0px 0px 0px #25262b, inset 0px 0px 0px #313433;
+		}
+		50% {
+		  box-shadow: 0px 0px 0px #25262b, 0px 0px 0px #31343a, inset 10px 10px 15px #25262b, inset -10px -10px 15px #31343a;
+		}
+		100% {
+		  box-shadow: 10px 10px 15px #25262b, -10px -10px 15px #31343a, inset 0px 0px 0px #25262b, inset 0px 0px 0px #313433;
+		}
+	  }
+	  @keyframes buttonClicked {
+		0% {
+		  box-shadow: 10px 10px 15px #25262b, -10px -10px 15px #31343a, inset 0px 0px 0px #25262b, inset 0px 0px 0px #313433;
+		}
+		50% {
+		  box-shadow: 0px 0px 0px #25262b, 0px 0px 0px #31343a, inset 10px 10px 15px #25262b, inset -10px -10px 15px #31343a;
+		}
+		100% {
+		  box-shadow: 10px 10px 15px #25262b, -10px -10px 15px #31343a, inset 0px 0px 0px #25262b, inset 0px 0px 0px #313433;
+		}
+	  }

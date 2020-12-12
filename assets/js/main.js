@@ -304,6 +304,31 @@ var retype = {
 	}// END retype.newLetter()
 };
 
+const box1 = document.getElementById('neobutton1');
+
+box1.onclick = () => {
+  box1.classList.add('click');
+  setTimeout(() => {
+    box1.classList.remove('click');
+  }, 300);
+};
+const box2 = document.getElementById('neobutton2');
+
+box2.onclick = () => {
+  box2.classList.add('click');
+  setTimeout(() => {
+    box2.classList.remove('click');
+  }, 300);
+};
+
+const box3 = document.getElementById('neobutton3');
+
+box3.onclick = () => {
+  box3.classList.add('click');
+  setTimeout(() => {
+    box3.classList.remove('click');
+  }, 300);
+};
 retype.start();
 
 
