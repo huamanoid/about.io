@@ -3496,7 +3496,7 @@ input, select, textarea {
 			}
 
 				#banner .content .image img {
-					border-radius: 100%;
+					/* border-radius: 100%; */
 					display: block;
 					width: 100%;
 				}
@@ -3536,7 +3536,7 @@ input, select, textarea {
 			}
 
 			#footer .icons .icon.alt:before {
-				color: #272833 !important;
+				color: #2b2d32 !important;
 				text-shadow: 1px 0 0 rgba(255, 255, 255, 0.5), -1px 0 0 rgba(255, 255, 255, 0.5), 0 1px 0 rgba(255, 255, 255, 0.5), 0 -1px 0 rgba(255, 255, 255, 0.5);
 			}
 
@@ -3950,3 +3950,16 @@ input, select, textarea {
 		  box-shadow: 10px 10px 15px #25262b, -10px -10px 15px #31343a, inset 0px 0px 0px #25262b, inset 0px 0px 0px #313433;
 		}
 	  }
+	  
+	  canvas {
+		position: absolute;
+		opacity: 0.1; /* adjust me! */
+		z-index: 9999;
+		pointer-events: none;
+		user-select: none;
+		width: 100%;
+	}
+
+	.noise {
+		width: 100%;
+	}
